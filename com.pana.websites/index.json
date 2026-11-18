@@ -1,0 +1,748 @@
+{
+  "schema": 1,
+  "trick": "com.pana.websites",
+  "bases": {
+    "app": {
+      "files": {
+        "DESIGN.md": {
+          "sha256": "890ecda86aa65808c63d79db37e58214827c5856715ceb0811a8c77fbdc434bd",
+          "size": 2372
+        },
+        "app.js": {
+          "sha256": "3890c93a0d53c0246c69eae183637a1b44962f7c6d878188106034aba5e24f55",
+          "size": 5304
+        },
+        "favicon.svg": {
+          "sha256": "06ce91b890ebff1ac6eb4dfb1c67aa848d15cf9be3cababbd330bc22c8c4d1ef",
+          "size": 166
+        },
+        "fonts/inter.woff2": {
+          "sha256": "3100e775e8616cd2611beecfa23a4263d7037586789b43f035236a2e6fbd4c62",
+          "size": 48256
+        },
+        "fonts/manrope.woff2": {
+          "sha256": "8c2def024c1bf31aacf3624ae3c4d701269b4ec3dc765c04830839f0d36b2d9e",
+          "size": 24532
+        },
+        "index.html": {
+          "sha256": "bfea69434721e74278ff2a4ce94dc20d38e6f9cd6c3da6d66164135ff2fc2086",
+          "size": 33542
+        },
+        "robots.txt": {
+          "sha256": "16ceb5ee3e0dc13aa9adf31a3ebbe45a1d965b8c2b9f72eaf84e5911e140ed95",
+          "size": 23
+        },
+        "styles.css": {
+          "sha256": "ab5a41b02bb0646552c9921028d58d6a2b02d69284422ab8155a2f1343cd655d",
+          "size": 39512
+        }
+      },
+      "bytes": 153707
+    },
+    "business": {
+      "files": {
+        "DESIGN.md": {
+          "sha256": "3a0a6edb900d29949668983be8daeced261ef110593fe6c3d5d05b0feb276631",
+          "size": 2448
+        },
+        "app.js": {
+          "sha256": "7a7955753542ad9790cb0d75fad1d359e5b9cb88f6beb111fe62d2ea4b92806d",
+          "size": 8246
+        },
+        "favicon.svg": {
+          "sha256": "c7ab5d0a18e99789dbf91594e1a2c88fce61a4b1266ba69d11521199ccef3661",
+          "size": 166
+        },
+        "fonts/cormorant-i.woff2": {
+          "sha256": "da7311e8dc56f23819f46e5566aa6ae3a8cc68f272569f2ed4a02f49b39902f4",
+          "size": 16028
+        },
+        "fonts/cormorant.woff2": {
+          "sha256": "7cc15e29291a646ec35eecd74b074ed93a0039324bae6e69fe6367dfcba3851d",
+          "size": 15264
+        },
+        "fonts/inter.woff2": {
+          "sha256": "3100e775e8616cd2611beecfa23a4263d7037586789b43f035236a2e6fbd4c62",
+          "size": 48256
+        },
+        "fonts/karla.woff2": {
+          "sha256": "74e1b6eec3f963caf16d805e38fed3a1afa823d40a46bc7df615b3c84e66dc22",
+          "size": 24756
+        },
+        "fonts/mono.woff2": {
+          "sha256": "18be452724bfdc236c074ca94a249a7f41a86752c7d04ab258ce9ed5651f6a7e",
+          "size": 40404
+        },
+        "img/band-s.webp": {
+          "sha256": "d6da1fc4d3c7e05ce12bb49c72f443578e3bb4b97e30532d0755abcdbdcc2199",
+          "size": 41926
+        },
+        "img/band.webp": {
+          "sha256": "21ad5de62afdd56e77f0ac99538145206fb1255264e0a46c8848605c1293e6b4",
+          "size": 135314
+        },
+        "img/cta-s.webp": {
+          "sha256": "b7a40a8fdc60f91643fd5b90e046b863149567854596edf732818d2ef9dca693",
+          "size": 52468
+        },
+        "img/cta.webp": {
+          "sha256": "59db1faefeefbcbebbd3542b66d93e4a90f492bd204148906cbd750a0748e113",
+          "size": 134864
+        },
+        "img/hero-l.webp": {
+          "sha256": "22206f7d498a4d69d5f1a798d0ab1d41226a4558af302a89d0afc00894df723a",
+          "size": 97050
+        },
+        "img/hero-m.webp": {
+          "sha256": "3f743799c7f4201fa34302830338a53d93f2a75806961c45b687309eab83d438",
+          "size": 50486
+        },
+        "img/hero-p.webp": {
+          "sha256": "1b1a2c5dd21191982f8aacdc49c303e33a6f933ef487e9b207e621c6e0a133ed",
+          "size": 48180
+        },
+        "img/il-sprig.webp": {
+          "sha256": "f76dfee836199c68aa928999b1623235475331322118ff8826f8cd6163d92001",
+          "size": 92758
+        },
+        "img/sp-1.webp": {
+          "sha256": "722ef001e03dc164976ff8ff7825a424d65fb25778bf16040fc38284418e26a7",
+          "size": 26710
+        },
+        "img/sp-1s.webp": {
+          "sha256": "2737d6175cb62e6c83b6d1fd939eea2ccab2a78a4800800f667331678c99fe7d",
+          "size": 17594
+        },
+        "img/sp-2.webp": {
+          "sha256": "a3a24eeae475e54810b8a7ab90efd9d0b50b8510dabe2472d7d559c12badb192",
+          "size": 16322
+        },
+        "img/sp-3.webp": {
+          "sha256": "898947e87095acc4a9b682cbbc9e086aaaf987819c58a87ec1e8524379b4ed26",
+          "size": 31518
+        },
+        "img/sp-4.webp": {
+          "sha256": "e1ff1bde765203447df0c5c475171f2f34366d50d26f8bcdba352ba1f48714b6",
+          "size": 33788
+        },
+        "img/sp-5.webp": {
+          "sha256": "62ed24aed79d1a0354b4b27d7e6a1af9b7ee89e9a17dd5280af9ba08c0462cdd",
+          "size": 9020
+        },
+        "img/tm-1.webp": {
+          "sha256": "10570ca40e6ffce7b6ab68dd32d9a48d794f2566a004720a3c6ad41778c488a9",
+          "size": 21588
+        },
+        "img/tm-2.webp": {
+          "sha256": "395d3da2af6a91bdc2ce50f4f48e676b1033026db822b73c754ae3bf29a34262",
+          "size": 25184
+        },
+        "img/tm-3.webp": {
+          "sha256": "ab0824c3f026b7a0b368fb3a203b74b58b3648fa53459884fa26bbae44e9553d",
+          "size": 23668
+        },
+        "index.html": {
+          "sha256": "2f6b74b1e6dbad327472418b6992b2e46023eaa8691f7c371606870a1abfa52d",
+          "size": 19218
+        },
+        "robots.txt": {
+          "sha256": "16ceb5ee3e0dc13aa9adf31a3ebbe45a1d965b8c2b9f72eaf84e5911e140ed95",
+          "size": 23
+        },
+        "styles.css": {
+          "sha256": "d3ce086361e48d76b3131ff417a099db018d00b806c1a59aea1e477b4d7be9d3",
+          "size": 54410
+        }
+      },
+      "bytes": 1087657
+    },
+    "continuous": {
+      "files": {
+        "DESIGN.md": {
+          "sha256": "540c966bdea9a64edbe70a9867b763c5f7d5af1a06307c6090c29ccec37913d8",
+          "size": 2246
+        },
+        "app.js": {
+          "sha256": "7db35e429e59cab2c65f36cea7b0a0d416a5bc9951e1b373cb3196da81162114",
+          "size": 5219
+        },
+        "favicon.svg": {
+          "sha256": "c7ab5d0a18e99789dbf91594e1a2c88fce61a4b1266ba69d11521199ccef3661",
+          "size": 166
+        },
+        "fonts/inter.woff2": {
+          "sha256": "3100e775e8616cd2611beecfa23a4263d7037586789b43f035236a2e6fbd4c62",
+          "size": 48256
+        },
+        "fonts/mono.woff2": {
+          "sha256": "18be452724bfdc236c074ca94a249a7f41a86752c7d04ab258ce9ed5651f6a7e",
+          "size": 40404
+        },
+        "fonts/syne.woff2": {
+          "sha256": "68b623f0e45b905041b2edb9b2e4f563a505f13db1cd06b5f1946eb2e1f47048",
+          "size": 34608
+        },
+        "img/c1.webp": {
+          "sha256": "2d2f993f696085c1b3a4ea2e11f2aadc0a30084f8cc5bf35588cebcbe3789234",
+          "size": 19022
+        },
+        "img/c2.webp": {
+          "sha256": "16ddbdc10bba64f490f22ac3a760e9de68bfd3e744476a62a509b7fca853512b",
+          "size": 143424
+        },
+        "img/c3.webp": {
+          "sha256": "e0d54a4034ff87fa2703027466a94d70eadb11405552aa078536f9a88d2cb0c8",
+          "size": 51900
+        },
+        "index.html": {
+          "sha256": "8ba3f8e4eb75c7c8e81b645c2f8eedc86d41366b5e3a4a0d19d37bfde0a1218a",
+          "size": 9201
+        },
+        "robots.txt": {
+          "sha256": "16ceb5ee3e0dc13aa9adf31a3ebbe45a1d965b8c2b9f72eaf84e5911e140ed95",
+          "size": 23
+        },
+        "styles.css": {
+          "sha256": "aeeda85cf7f3a85769f213a56350949e57c4839315fc9544bf1da7e9d43fbd98",
+          "size": 65167
+        }
+      },
+      "bytes": 419636
+    },
+    "infoproduct": {
+      "files": {
+        "DESIGN.md": {
+          "sha256": "ea6032347f6f0c1f55bc76a7f3377ba8235242ec2672c195273972bdf6d3f4bd",
+          "size": 2201
+        },
+        "app.js": {
+          "sha256": "b2b7f609197e1479d3b09ecdf2acac74ead940523fd759de7c624ef84478b4eb",
+          "size": 3270
+        },
+        "favicon.svg": {
+          "sha256": "c7ab5d0a18e99789dbf91594e1a2c88fce61a4b1266ba69d11521199ccef3661",
+          "size": 166
+        },
+        "fonts/figtree.woff2": {
+          "sha256": "4ba7d3d096695818fe0686be4f1e82c6b05134e18a22260336130335027462dd",
+          "size": 20156
+        },
+        "fonts/fraunces-i.woff2": {
+          "sha256": "bceec2ef4d549efbc8df0194a8d5280b6a64c3e399244dffccd9ea1bd9ad6db7",
+          "size": 45656
+        },
+        "fonts/fraunces.woff2": {
+          "sha256": "7f9d191d999336d3b9790afa72e1358e50a13b06d4f289341e92a311967a80f9",
+          "size": 36620
+        },
+        "fonts/inter.woff2": {
+          "sha256": "3100e775e8616cd2611beecfa23a4263d7037586789b43f035236a2e6fbd4c62",
+          "size": 48256
+        },
+        "fonts/mono.woff2": {
+          "sha256": "18be452724bfdc236c074ca94a249a7f41a86752c7d04ab258ce9ed5651f6a7e",
+          "size": 40404
+        },
+        "img/ada-480.webp": {
+          "sha256": "fba8daa75ad24b358726c892a0899d7a92eddf684b8bd2d3b797acdf3bf136ab",
+          "size": 32526
+        },
+        "img/ada-800.webp": {
+          "sha256": "2c12700429fb492832ef0185a8a1564b604352409d435191f9d5c47a5fd67a0c",
+          "size": 71368
+        },
+        "img/v-thumb-800.webp": {
+          "sha256": "947940589030510dfb4998cb712f71f31844dea1652e2e1cc06dda4fd93a9770",
+          "size": 31448
+        },
+        "img/v-thumb.webp": {
+          "sha256": "b09447288ce1618c944481fc6d574ac96ec16a19211dc231ae10053a997fc0fd",
+          "size": 66180
+        },
+        "index.html": {
+          "sha256": "ecc5bfff4ae7c1bc9b14504534896fe5d2551cd29e32525cd97eb8db76289198",
+          "size": 51221
+        },
+        "robots.txt": {
+          "sha256": "16ceb5ee3e0dc13aa9adf31a3ebbe45a1d965b8c2b9f72eaf84e5911e140ed95",
+          "size": 23
+        }
+      },
+      "bytes": 449495
+    },
+    "landing": {
+      "files": {
+        "DESIGN.md": {
+          "sha256": "76a074a71d67e10fc6fac0739832b181065991c0cc4dd4dd8bd668e39ecdd47d",
+          "size": 2120
+        },
+        "app.js": {
+          "sha256": "1fd4b9e32ebbb1d6a1a2203753fa9d7179fb6c30734e1f692031b786ee52d9e4",
+          "size": 5445
+        },
+        "favicon.svg": {
+          "sha256": "c7ab5d0a18e99789dbf91594e1a2c88fce61a4b1266ba69d11521199ccef3661",
+          "size": 166
+        },
+        "fonts/inter.woff2": {
+          "sha256": "3100e775e8616cd2611beecfa23a4263d7037586789b43f035236a2e6fbd4c62",
+          "size": 48256
+        },
+        "fonts/mono.woff2": {
+          "sha256": "18be452724bfdc236c074ca94a249a7f41a86752c7d04ab258ce9ed5651f6a7e",
+          "size": 40404
+        },
+        "index.html": {
+          "sha256": "407097705403c274f8772908aea6818f353c987d4b7cda9945f2089fbdf78edb",
+          "size": 12639
+        },
+        "robots.txt": {
+          "sha256": "16ceb5ee3e0dc13aa9adf31a3ebbe45a1d965b8c2b9f72eaf84e5911e140ed95",
+          "size": 23
+        },
+        "styles.css": {
+          "sha256": "6d75eb4fc4c3032367f531ad294be84a5c8fe68634744a686910921d292dd03e",
+          "size": 68686
+        }
+      },
+      "bytes": 177739
+    },
+    "personal": {
+      "files": {
+        "DESIGN.md": {
+          "sha256": "65bf756476693caedbdef53df43e0d2d7dc19c48c2c05732059f21ebb018bf8f",
+          "size": 2125
+        },
+        "app.js": {
+          "sha256": "4f12c798a7b70084571432be0a33519e62973a9136abc14632a3987fe005665a",
+          "size": 3652
+        },
+        "favicon.svg": {
+          "sha256": "c7ab5d0a18e99789dbf91594e1a2c88fce61a4b1266ba69d11521199ccef3661",
+          "size": 166
+        },
+        "fonts/archivo.woff2": {
+          "sha256": "8f704806dbedeaaeca334b11ec348bc3ac3a439d6431544b3afb54f534ee4967",
+          "size": 34928
+        },
+        "fonts/archivoblack.woff2": {
+          "sha256": "25f33e61cf995abd6be62931cf03bf427286259177b43618cc410ee0157cfd30",
+          "size": 18604
+        },
+        "fonts/inter.woff2": {
+          "sha256": "3100e775e8616cd2611beecfa23a4263d7037586789b43f035236a2e6fbd4c62",
+          "size": 48256
+        },
+        "fonts/mono.woff2": {
+          "sha256": "18be452724bfdc236c074ca94a249a7f41a86752c7d04ab258ce9ed5651f6a7e",
+          "size": 40404
+        },
+        "img/ip-1.webp": {
+          "sha256": "cacf76214e3b0a3164fff5040527b974e2ab54779e07dfdd3a95ae12ac7ed4ce",
+          "size": 39584
+        },
+        "index.html": {
+          "sha256": "0d71a897838ccb2b72a95a512f03354c8360cd908ea5de2e0f5636e6a6ac2f74",
+          "size": 8138
+        },
+        "robots.txt": {
+          "sha256": "16ceb5ee3e0dc13aa9adf31a3ebbe45a1d965b8c2b9f72eaf84e5911e140ed95",
+          "size": 23
+        },
+        "styles.css": {
+          "sha256": "b2d57b71c40ff36b6e96cc94c82eee91e46db20f491a0d7395f0033166630c7d",
+          "size": 65525
+        }
+      },
+      "bytes": 261405
+    },
+    "personal-cutout": {
+      "files": {
+        "DESIGN.md": {
+          "sha256": "0ecf7cb605d46b78b040548b920be13f246d826a8e7591b8543b98ee400a04c4",
+          "size": 2270
+        },
+        "app.js": {
+          "sha256": "26210beebb3cd7a239fe9e81fafb5b22713d4763920085818d0e60a2ac7a1e5c",
+          "size": 5502
+        },
+        "favicon.svg": {
+          "sha256": "c7ab5d0a18e99789dbf91594e1a2c88fce61a4b1266ba69d11521199ccef3661",
+          "size": 166
+        },
+        "fonts/anton.woff2": {
+          "sha256": "d0fa07ff63dd60cbc0e2f58e29c802dca2a5ae0276c999f59c6111ab7bbaec3b",
+          "size": 18612
+        },
+        "fonts/inter.woff2": {
+          "sha256": "3100e775e8616cd2611beecfa23a4263d7037586789b43f035236a2e6fbd4c62",
+          "size": 48256
+        },
+        "fonts/mono.woff2": {
+          "sha256": "18be452724bfdc236c074ca94a249a7f41a86752c7d04ab258ce9ed5651f6a7e",
+          "size": 40404
+        },
+        "img/cut-man.webp": {
+          "sha256": "1bcd504519c676efb32d16ff99697b9e147557e0fbcb491b2cc9f597dfc01713",
+          "size": 108176
+        },
+        "img/cut-woman.webp": {
+          "sha256": "5c73044106b65771624825271f29b6afc87edd6cf81b249a1c478fac866b6340",
+          "size": 95460
+        },
+        "index.html": {
+          "sha256": "14fad10152b6b863046d1cc5c9d0d7ded3abbc89e6ad744c2df113e0f1b21432",
+          "size": 15493
+        },
+        "robots.txt": {
+          "sha256": "16ceb5ee3e0dc13aa9adf31a3ebbe45a1d965b8c2b9f72eaf84e5911e140ed95",
+          "size": 23
+        },
+        "styles.css": {
+          "sha256": "57a55acee925e270174736fbc99002f74b42fec40b018f8afac787dd89c2101d",
+          "size": 77662
+        }
+      },
+      "bytes": 412024
+    },
+    "portfolio": {
+      "files": {
+        "DESIGN.md": {
+          "sha256": "8fc2149d9f86095448bcf1e7f444e519091c79a2495d4aeb1e806b326183479b",
+          "size": 2028
+        },
+        "app.js": {
+          "sha256": "ccf9678cd4cfe59c95273c36e5bc5e41ee44deba5aca87e03fd81a2927726696",
+          "size": 4611
+        },
+        "favicon.svg": {
+          "sha256": "c7ab5d0a18e99789dbf91594e1a2c88fce61a4b1266ba69d11521199ccef3661",
+          "size": 166
+        },
+        "fonts/inter.woff2": {
+          "sha256": "3100e775e8616cd2611beecfa23a4263d7037586789b43f035236a2e6fbd4c62",
+          "size": 48256
+        },
+        "fonts/mono.woff2": {
+          "sha256": "18be452724bfdc236c074ca94a249a7f41a86752c7d04ab258ce9ed5651f6a7e",
+          "size": 40404
+        },
+        "img/f-1.webp": {
+          "sha256": "dd4c7d80f3841c080ec7a369bfea08a4e5612ee05cc4ae5f791138daad15d465",
+          "size": 8572
+        },
+        "img/f-2.webp": {
+          "sha256": "a7029cfc45dd4cfdf1c3ff7d067de19e74d49bf9bc5ef0e624a6fe23c9d050aa",
+          "size": 42184
+        },
+        "img/f-3.webp": {
+          "sha256": "55fb16a0f58ed5950df2c208a77bb7fa23283c6c11c85307e707444671f73cd5",
+          "size": 34096
+        },
+        "img/f-4.webp": {
+          "sha256": "1c502472e4a1e0aa31d7416ad56c4743d3fffdecee6f157dd2fa8972b53df084",
+          "size": 69466
+        },
+        "img/f-5.webp": {
+          "sha256": "c4c056273bc88938f906e6cc024d43bce21b3b06243bf87e4966a9605636bd2c",
+          "size": 89832
+        },
+        "index.html": {
+          "sha256": "8f5181e53a02bc57a3c56bae8c77c92da2a11057ec5aaec7d144012cc225289b",
+          "size": 14446
+        },
+        "robots.txt": {
+          "sha256": "16ceb5ee3e0dc13aa9adf31a3ebbe45a1d965b8c2b9f72eaf84e5911e140ed95",
+          "size": 23
+        },
+        "styles.css": {
+          "sha256": "e5c29b4d5938f88819ed13fed8d42893a9dd026195ae129d46efade95807848c",
+          "size": 64553
+        }
+      },
+      "bytes": 418637
+    },
+    "product": {
+      "files": {
+        "DESIGN.md": {
+          "sha256": "730a55c0a6e2428245ecd236ceba1deabecc99a1cc2d8a982f50802fea8913ce",
+          "size": 2014
+        },
+        "app.js": {
+          "sha256": "f4e892a34422792b25d26afcaed5dc2d27ca9bd62e30027482f811bf57dad0ee",
+          "size": 4228
+        },
+        "favicon.svg": {
+          "sha256": "c7ab5d0a18e99789dbf91594e1a2c88fce61a4b1266ba69d11521199ccef3661",
+          "size": 166
+        },
+        "fonts/dmsans.woff2": {
+          "sha256": "9fea608a947e67020c33cad9a6fe3d60c54119dfb8cff87768a8117a15ed7543",
+          "size": 36932
+        },
+        "fonts/inter.woff2": {
+          "sha256": "3100e775e8616cd2611beecfa23a4263d7037586789b43f035236a2e6fbd4c62",
+          "size": 48256
+        },
+        "fonts/mono.woff2": {
+          "sha256": "18be452724bfdc236c074ca94a249a7f41a86752c7d04ab258ce9ed5651f6a7e",
+          "size": 40404
+        },
+        "fonts/playfair.woff2": {
+          "sha256": "e0c764a8e9e1cce92163c55bac4b2ad6cd4cf8c696ce2289ab5c41565e65b7e2",
+          "size": 38404
+        },
+        "img/box-s.webp": {
+          "sha256": "06abb53193c82bf4ca4ab07ed64aebcb3c967197c7ef4152cfe83224f9301e09",
+          "size": 19530
+        },
+        "img/box.webp": {
+          "sha256": "90c98af321d6db8afd9fc4e4bd461450da16e50e34dc5abfa618e042083b0685",
+          "size": 111686
+        },
+        "img/k1.webp": {
+          "sha256": "b968c6fc099f47123d43fb5d0773869715f292e675017ae2bd3fc6881545a619",
+          "size": 52322
+        },
+        "img/k2.webp": {
+          "sha256": "c646f30508cf3075eec617d714ab9bc13776c17a60cc62dde6d042fce7fe3925",
+          "size": 99088
+        },
+        "img/kb1.webp": {
+          "sha256": "aaab88cd8d96b9186ef86040ae948ab5198859b9eb424cb8b544d7c26815ca95",
+          "size": 3362
+        },
+        "img/kb2.webp": {
+          "sha256": "4a9063aca186a816f9579a6b1a2c0ef7d06c2a6be2551aab724d61a5d099cd54",
+          "size": 9158
+        },
+        "img/kb3.webp": {
+          "sha256": "455f4ae0c5664c148460fe6af8ede6f4cebf8c122e0c797c06c1cc82e0f15927",
+          "size": 2310
+        },
+        "index.html": {
+          "sha256": "f3c22dcfa8183d30a78226481bd8f8b223b0609648b8f6b1af8e5654221222fb",
+          "size": 12688
+        },
+        "js/kb.js": {
+          "sha256": "93c6c26eb5a771148c0a12c78a11bfbee9452e17e86713cce2817d73cc4ac1cb",
+          "size": 433
+        },
+        "robots.txt": {
+          "sha256": "16ceb5ee3e0dc13aa9adf31a3ebbe45a1d965b8c2b9f72eaf84e5911e140ed95",
+          "size": 23
+        },
+        "styles.css": {
+          "sha256": "fcb0deaed7a0fee53268697bb2431a66fd4def50b39d29d26398cf2fece8a902",
+          "size": 72483
+        }
+      },
+      "bytes": 553487
+    },
+    "saas": {
+      "files": {
+        "DESIGN.md": {
+          "sha256": "3d4e0889c8a1989fd723df70c02e0123a6834e8e32b49c5fca5e0248ecbeb612",
+          "size": 2090
+        },
+        "app.js": {
+          "sha256": "c88b80f1e65fff2494e7e44ad7b40aa459a49de125da0c7b9d53a292e82cf72e",
+          "size": 5889
+        },
+        "favicon.svg": {
+          "sha256": "c7ab5d0a18e99789dbf91594e1a2c88fce61a4b1266ba69d11521199ccef3661",
+          "size": 166
+        },
+        "fonts/inter.woff2": {
+          "sha256": "3100e775e8616cd2611beecfa23a4263d7037586789b43f035236a2e6fbd4c62",
+          "size": 48256
+        },
+        "fonts/intertight.woff2": {
+          "sha256": "77fefe8ca19b9f69b5284832c519e0493127c1f091f0a8936884be7721c4e618",
+          "size": 44872
+        },
+        "fonts/mono.woff2": {
+          "sha256": "18be452724bfdc236c074ca94a249a7f41a86752c7d04ab258ce9ed5651f6a7e",
+          "size": 40404
+        },
+        "index.html": {
+          "sha256": "736e58a7cd323f1aa4bfe89c305fe58369fc94f345cfb177bb609b848bad732a",
+          "size": 19616
+        },
+        "robots.txt": {
+          "sha256": "16ceb5ee3e0dc13aa9adf31a3ebbe45a1d965b8c2b9f72eaf84e5911e140ed95",
+          "size": 23
+        },
+        "styles.css": {
+          "sha256": "e66e999181f975c22c92817753e2d00571ebbdbdc87fe9b5acf84e90fcdb07ce",
+          "size": 84328
+        }
+      },
+      "bytes": 245644
+    },
+    "startup": {
+      "files": {
+        "DESIGN.md": {
+          "sha256": "7017abc2e5282a7854f4fb13eed2af391e21af7c2b5d8f71064a486b1ad7a787",
+          "size": 2096
+        },
+        "app.js": {
+          "sha256": "94eac3a5a0d2e3637fa4f234a1ca52a4f789a7dd66c4dd51969a547ed05d8e05",
+          "size": 2471
+        },
+        "favicon.svg": {
+          "sha256": "254158af5cafbeb3cbbc4c1624a4a3fdcd10cd07f036556374064e70973ba68d",
+          "size": 264
+        },
+        "fonts/inter.woff2": {
+          "sha256": "3100e775e8616cd2611beecfa23a4263d7037586789b43f035236a2e6fbd4c62",
+          "size": 48256
+        },
+        "fonts/intertight.woff2": {
+          "sha256": "77fefe8ca19b9f69b5284832c519e0493127c1f091f0a8936884be7721c4e618",
+          "size": 44872
+        },
+        "fonts/mono.woff2": {
+          "sha256": "18be452724bfdc236c074ca94a249a7f41a86752c7d04ab258ce9ed5651f6a7e",
+          "size": 40404
+        },
+        "img/lab.webp": {
+          "sha256": "1da1ff818da6ac539ac202a24108be09bdff889faf9d8249011b55feb6db386f",
+          "size": 143510
+        },
+        "img/t1.webp": {
+          "sha256": "f4e1251ee74715274f813406b47f3602079b81b4845b045619d7d9c4a9e82286",
+          "size": 11548
+        },
+        "img/t2.webp": {
+          "sha256": "cdf24ed4de84deb0e4c30d3ee29e82e6d818e390ec2fe9c964149153a6c4eb7b",
+          "size": 27432
+        },
+        "img/t3.webp": {
+          "sha256": "2ba62b2eec52be62583fd96a67b32a31675f72b6e2defc04f176145168b30ce3",
+          "size": 16842
+        },
+        "img/t4.webp": {
+          "sha256": "d33b4b131f1adbcde7d5e196d34a25964676630aecb9e38598a151c367439736",
+          "size": 15712
+        },
+        "img/t5.webp": {
+          "sha256": "58e320fecb2163014f48eb6a24f70edbe2faccef49169fdc7cb9b39ab76614db",
+          "size": 28650
+        },
+        "img/t6.webp": {
+          "sha256": "240fe9012db6159f74959831e11bc007cecb4af77960b6a91c85b66329947012",
+          "size": 15982
+        },
+        "index.html": {
+          "sha256": "c8235a95e71675aaa909b8d5c9d9dff759e552409543534fa2d62c1175c945fb",
+          "size": 13611
+        },
+        "robots.txt": {
+          "sha256": "16ceb5ee3e0dc13aa9adf31a3ebbe45a1d965b8c2b9f72eaf84e5911e140ed95",
+          "size": 23
+        },
+        "styles.css": {
+          "sha256": "4cee5a965c50dd006b673bd1cef4575775cecc7dcd188d9cabaeac2b8fba9865",
+          "size": 12233
+        }
+      },
+      "bytes": 423906
+    }
+  },
+  "sections-library": {
+    "files": {
+      "app.js": {
+        "sha256": "e6f2f6e7fda5317560881c1a5cd45d645c8ae5f425a7c28748d8dacf1658fb6f",
+        "size": 10597
+      },
+      "favicon.svg": {
+        "sha256": "c7ab5d0a18e99789dbf91594e1a2c88fce61a4b1266ba69d11521199ccef3661",
+        "size": 166
+      },
+      "fonts/inter.woff2": {
+        "sha256": "3100e775e8616cd2611beecfa23a4263d7037586789b43f035236a2e6fbd4c62",
+        "size": 48256
+      },
+      "fonts/mono.woff2": {
+        "sha256": "18be452724bfdc236c074ca94a249a7f41a86752c7d04ab258ce9ed5651f6a7e",
+        "size": 40404
+      },
+      "index.html": {
+        "sha256": "51b03d955501183602be93d3e7bffbc3cb833996c998f932b9d42a46ddb1106f",
+        "size": 39269
+      },
+      "robots.txt": {
+        "sha256": "16ceb5ee3e0dc13aa9adf31a3ebbe45a1d965b8c2b9f72eaf84e5911e140ed95",
+        "size": 23
+      },
+      "styles.css": {
+        "sha256": "1a109cc55db9ad24e00efacfbe77eb8930a6ae4ec884275dc9058a48589c42ac",
+        "size": 55253
+      }
+    },
+    "bytes": 193968
+  },
+  "heroshots": {
+    "app": {
+      "path": "templates/_heroshots/app.png",
+      "sha256": "5f78a55b5baafae7b169433f2d7f3c0aaa3de90cc1877590f4437c47a0f32ad3",
+      "size": 345578
+    },
+    "business": {
+      "path": "templates/_heroshots/business.png",
+      "sha256": "278ed2305d81c976d65a464470af534fc767b5fb567acf001402925accff4090",
+      "size": 722279
+    },
+    "continuous": {
+      "path": "templates/_heroshots/continuous.png",
+      "sha256": "9e93a33fdd3a19b5025c61c1b7061caaa556c3ef53a4487c595a2d0fc94f3eed",
+      "size": 434412
+    },
+    "infoproduct": {
+      "path": "templates/_heroshots/infoproduct.png",
+      "sha256": "602547f50718ab38ef354e55390b075ee9904e7f84e7dd621010cdcb3d78bce2",
+      "size": 392323
+    },
+    "landing": {
+      "path": "templates/_heroshots/landing.png",
+      "sha256": "5835d4ca6ad9608b8fb50640ef2718c708b2357dd03d5be8e70d2964d06231fd",
+      "size": 96070
+    },
+    "personal-cutout": {
+      "path": "templates/_heroshots/personal-cutout.png",
+      "sha256": "10c5be64a6f7b1b4672ade4972f067ab7a48bbbce3ae44a3e09e6a8a81302cdd",
+      "size": 1150455
+    },
+    "personal": {
+      "path": "templates/_heroshots/personal.png",
+      "sha256": "9ff51f6385515b1e0e017a4413ee7273fc79941d3c7725690111a6345f458eaf",
+      "size": 352589
+    },
+    "portfolio": {
+      "path": "templates/_heroshots/portfolio.png",
+      "sha256": "86bedcdc0f7dd317e6101686e86fd463f369361dc893fae662f2aa718e2077e3",
+      "size": 283430
+    },
+    "product": {
+      "path": "templates/_heroshots/product.png",
+      "sha256": "08f34f7e091782598293bcfc5b62ab58ff0238cd1f4399f33ae9d2556d9d90a0",
+      "size": 237047
+    },
+    "saas": {
+      "path": "templates/_heroshots/saas.png",
+      "sha256": "58dccc7b27e9d904b3c85bfde49eb67566dae2831a2ce22da74dc6c9d0822bc0",
+      "size": 110127
+    },
+    "sections-library": {
+      "path": "templates/_heroshots/sections-library.png",
+      "sha256": "af56870569f5b1f350082d18b8897ad1679b0b8cd57ff32adde30e9b2c74df32",
+      "size": 53872
+    },
+    "startup": {
+      "path": "templates/_heroshots/startup.png",
+      "sha256": "6baae2591cec64f0925e51c6bdd0423d4e2fe5abaec80b947a95c11fced97ff8",
+      "size": 422200
+    }
+  }
+}

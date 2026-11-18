@@ -1,0 +1,162 @@
+<!doctype html>
+<html lang="en" class="no-js">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Aperiodic · Machines that invent matter</title>
+<meta name="description" content="Aperiodic builds foundation models for materials, then makes what they discover in its own autonomous lab. Backed by Northline, Halden Capital and Fieldwork.">
+<meta name="theme-color" content="#0B0C0E">
+<meta property="og:type" content="website"><meta property="og:title" content="Aperiodic · Machines that invent matter"><meta property="og:description" content="Foundation models for materials, and an autonomous lab that makes what they discover.">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="icon" href="favicon.svg" type="image/svg+xml">
+<link rel="preload" href="fonts/intertight.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="fonts/inter.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="stylesheet" href="styles.css">
+<script>var d=document.documentElement;d.classList.remove('no-js');if(!matchMedia('(prefers-reduced-motion: reduce)').matches)d.classList.add('mo')</script>
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"Organization","name":"Aperiodic","description":"Foundation models for materials discovery and an autonomous synthesis lab.","foundingDate":"2024","address":{"@type":"PostalAddress","addressLocality":"Boston","addressCountry":"US"}}</script>
+</head>
+<body>
+<a class="skip" href="#main">Skip to content</a>
+<header class="nav" id="top">
+  <a class="brand" href="#top" aria-label="Aperiodic home"><svg viewBox="0 0 32 32" aria-hidden="true"><path d="M16 5l10 18H6z" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linejoin="round"/><circle cx="16" cy="17" r="2.6" fill="var(--cy)"/></svg>Aperiodic</a>
+  <nav aria-label="Primary"><a href="#thesis">Thesis</a><a href="#product">Platform</a><a href="#team">Team</a><a href="#careers">Careers</a></nav>
+  <a class="btn sm" href="#join">Request access</a>
+</header>
+
+<main id="main">
+<section class="hero">
+  <canvas id="field" aria-hidden="true"></canvas>
+  <div class="hero-in wrap">
+    <p class="eyebrow"><span class="dot"></span>Seed and Series A · $48M raised</p>
+    <h1>We are teaching machines to <em>invent matter.</em></h1>
+    <p class="lede">Every leap in energy, compute and medicine started as a new material. Aperiodic builds foundation models that design them, and an autonomous lab that makes them, in weeks instead of decades.</p>
+    <div class="cta-row"><a class="btn" href="#join">Partner with us</a><a class="btn ghost" href="#thesis">Read the thesis <span aria-hidden="true">→</span></a></div>
+  </div>
+  <div class="hero-meta wrap" aria-hidden="true"><span>Lat. 42.36° N</span><span id="hz">Candidates screened · 2,184,906</span><span>Scroll</span></div>
+</section>
+
+<section class="backers" aria-label="Backed by">
+  <div class="wrap row">
+    <p class="mono">Backed by</p>
+    <ul class="logos">
+      <li><svg viewBox="0 0 26 28" aria-hidden="true"><path d="M4 22L14 6l10 16" fill="none" stroke="currentColor" stroke-width="2.4"/></svg><span>Northline</span></li>
+      <li><svg viewBox="0 0 26 28" aria-hidden="true"><rect x="3" y="5" width="18" height="18" rx="2" fill="none" stroke="currentColor" stroke-width="2.4"/></svg><span>HALDEN</span></li>
+      <li><svg viewBox="0 0 26 28" aria-hidden="true"><circle cx="13" cy="14" r="9" fill="none" stroke="currentColor" stroke-width="2.4"/><circle cx="13" cy="14" r="3" fill="currentColor"/></svg><span>fieldwork</span></li>
+      <li><svg viewBox="0 0 26 28" aria-hidden="true"><path d="M3 22h20M3 14h14M3 6h8" stroke="currentColor" stroke-width="2.4"/></svg><span>Parallax</span></li>
+      <li><svg viewBox="0 0 26 28" aria-hidden="true"><path d="M13 4l9 10-9 10-9-10z" fill="none" stroke="currentColor" stroke-width="2.4"/></svg><span>Ostrom&amp;Co</span></li>
+    </ul>
+  </div>
+</section>
+
+<section class="problem wrap" id="thesis">
+  <p class="mono kicker">01 — The problem</p>
+  <h2 class="big rv">It takes twenty years and a billion dollars to bring one new material to market. <span class="dim">Lithium-ion took thirty. We do not have thirty years for the next one.</span></h2>
+  <div class="thesis">
+    <p class="mono kicker">02 — The thesis</p>
+    <ol>
+      <li class="rv"><span class="n">i.</span><h3>Chemistry is a search problem.</h3><p>The space of stable inorganic compounds is larger than 10<sup>10</sup>. Humans have characterised fewer than 200,000. The rest is unexplored map.</p></li>
+      <li class="rv"><span class="n">ii.</span><h3>Models need their own lab.</h3><p>Simulation alone drifts from reality. Our robots synthesise and measure every prediction, so the model learns from atoms, not papers.</p></li>
+      <li class="rv"><span class="n">iii.</span><h3>The loop is the moat.</h3><p>Each cycle of design, make and measure makes the next one faster. After 14 months, ours closes in 9 days.</p></li>
+    </ol>
+  </div>
+</section>
+
+<section class="product" id="product">
+  <div class="wrap">
+    <p class="mono kicker">03 — The platform</p>
+    <div class="ph"><h2>Atlas, the design–make–measure loop.</h2><p>Describe the property you need. Atlas proposes structures, ranks them by synthesisability, and queues the best for the robots overnight.</p></div>
+    <div class="console rv" role="img" aria-label="Atlas console showing a target spec, ranked candidate materials and a synthesis queue">
+      <div class="c-top"><span></span><span></span><span></span><b>atlas / run 2291 · solid-state electrolyte</b></div>
+      <div class="c-body">
+        <div class="c-spec">
+          <p class="mono">Target</p>
+          <dl><div><dt>Ionic conductivity</dt><dd>&gt; 10 mS/cm</dd></div><div><dt>Stability window</dt><dd>0 – 5.2 V</dd></div><div><dt>Elements excluded</dt><dd>Co, Ge</dd></div><div><dt>Cost ceiling</dt><dd>$40 / kg</dd></div></dl>
+          <p class="mono">Status</p><p class="live"><span class="dot"></span>Robots synthesising 6 of 12</p>
+        </div>
+        <div class="c-list">
+          <p class="mono">Ranked candidates</p>
+          <table><thead><tr><th>Formula</th><th>σ (mS/cm)</th><th>Synth.</th><th>Stage</th></tr></thead><tbody>
+          <tr><td>Li<sub>6</sub>PS<sub>5</sub>Cl<sub>0.4</sub>Br<sub>0.6</sub></td><td>14.2</td><td><i style="--v:.92"></i></td><td><span class="tag ok">Measured</span></td></tr>
+          <tr><td>Li<sub>3</sub>YCl<sub>4</sub>Br<sub>2</sub></td><td>11.8</td><td><i style="--v:.84"></i></td><td><span class="tag ok">Measured</span></td></tr>
+          <tr><td>Li<sub>7</sub>La<sub>3</sub>Zr<sub>1.6</sub>Ta<sub>0.4</sub>O<sub>12</sub></td><td>10.9</td><td><i style="--v:.71"></i></td><td><span class="tag run">In furnace</span></td></tr>
+          <tr><td>Na<sub>3</sub>SbS<sub>3.7</sub>W<sub>0.3</sub></td><td>10.4</td><td><i style="--v:.66"></i></td><td><span class="tag run">In furnace</span></td></tr>
+          <tr><td>Li<sub>2</sub>ZrCl<sub>5</sub>F</td><td>9.7</td><td><i style="--v:.58"></i></td><td><span class="tag">Queued</span></td></tr>
+          </tbody></table>
+        </div>
+        <figure class="c-img"><img src="img/lab.webp" alt="Macro photograph of a crystalline sample synthesised in the Aperiodic lab" width="1400" height="933" loading="lazy" decoding="async"><figcaption class="mono">Sample 2291-A · 40×</figcaption></figure>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="traction wrap" aria-label="Traction">
+  <p class="mono kicker">04 — Traction</p>
+  <div class="stats">
+    <div><b data-n="2.18" data-d="2">2.18</b><span class="u">M</span><p>Candidate structures screened every week</p></div>
+    <div><b data-n="9">9</b><span class="u">days</span><p>From target spec to measured sample</p></div>
+    <div><b data-n="41">41</b><p>Novel compounds synthesised and verified</p></div>
+    <div><b data-n="6">6</b><p>Paid pilots with industrial partners</p></div>
+  </div>
+</section>
+
+<section class="team wrap" id="team">
+  <div class="ph"><p class="mono kicker">05 — Team</p><h2>Physicists, chemists and roboticists who got tired of waiting.</h2></div>
+  <ul class="people">
+    <li class="rv"><img src="img/t1.webp" alt="Portrait of Mei Lin Zhou" width="640" height="640" loading="lazy" decoding="async"><h3>Mei Lin Zhou</h3><p>Co-founder, CEO</p><span class="mono">Prev. materials lead, national lab</span></li>
+    <li class="rv"><img src="img/t2.webp" alt="Portrait of Daniel Okafor" width="640" height="640" loading="lazy" decoding="async"><h3>Daniel Okafor</h3><p>Co-founder, CTO</p><span class="mono">Prev. research scientist, AI lab</span></li>
+    <li class="rv"><img src="img/t3.webp" alt="Portrait of Priya Raman" width="640" height="640" loading="lazy" decoding="async"><h3>Priya Raman</h3><p>Head of Chemistry</p><span class="mono">PhD solid-state chemistry</span></li>
+    <li class="rv"><img src="img/t4.webp" alt="Portrait of Jonas Weber" width="640" height="640" loading="lazy" decoding="async"><h3>Jonas Weber</h3><p>Head of Robotics</p><span class="mono">Prev. lab automation startup</span></li>
+    <li class="rv"><img src="img/t5.webp" alt="Portrait of Elena Vargas" width="640" height="640" loading="lazy" decoding="async"><h3>Elena Vargas</h3><p>Chief Scientist</p><span class="mono">Former professor of physics</span></li>
+    <li class="rv"><img src="img/t6.webp" alt="Portrait of Karim Haddad" width="640" height="640" loading="lazy" decoding="async"><h3>Karim Haddad</h3><p>ML Research Lead</p><span class="mono">Graph neural networks</span></li>
+  </ul>
+</section>
+
+<section class="investors wrap" aria-labelledby="inv">
+  <div class="ph"><p class="mono kicker">06 — Investors and advisors</p><h2 id="inv">In good company.</h2></div>
+  <div class="inv-grid">
+    <div><p class="mono">Lead investors</p><ul><li><b>Northline Ventures</b><span>Series A lead</span></li><li><b>Halden Capital</b><span>Seed lead</span></li><li><b>Fieldwork</b><span>Seed</span></li></ul></div>
+    <div><p class="mono">Angels</p><ul><li><b>Ruth Albrecht</b><span>Founder, battery cell maker</span></li><li><b>Tomás Ilić</b><span>Ex-VP Research, chip foundry</span></li><li><b>Sana Mirza</b><span>Partner, climate fund</span></li></ul></div>
+    <div><p class="mono">Advisors</p><ul><li><b>Prof. Henrik Lund</b><span>Computational chemistry</span></li><li><b>Dr. Aiko Tanaka</b><span>Crystallography</span></li><li><b>Marcus Bell</b><span>Industrial scale-up</span></li></ul></div>
+  </div>
+</section>
+
+<section class="press" aria-label="Press">
+  <div class="wrap quotes">
+    <blockquote class="rv"><p>“The closest thing to a self-driving lab we have seen outside of a government facility.”</p><cite class="mono">The Signal Review</cite></blockquote>
+    <blockquote class="rv"><p>“Aperiodic is betting the next battery will be found by a model, and they are building the robots to prove it.”</p><cite class="mono">Frontier Weekly</cite></blockquote>
+    <blockquote class="rv"><p>“A small team doing very large science.”</p><cite class="mono">Materials Today Dispatch</cite></blockquote>
+  </div>
+</section>
+
+<section class="careers wrap" id="careers">
+  <div class="ph"><p class="mono kicker">07 — Careers</p><h2>Come invent something that did not exist yesterday.</h2><p>Boston and remote. Competitive equity, a real lab, and problems nobody has solved.</p></div>
+  <ul class="roles">
+    <li><a href="mailto:careers@aperiodic.example?subject=Research%20Scientist%2C%20Generative%20Models"><b>Research Scientist, Generative Models</b><span>ML</span><span>Boston / Remote</span><i aria-hidden="true">→</i></a></li>
+    <li><a href="mailto:careers@aperiodic.example?subject=Synthesis%20Chemist"><b>Synthesis Chemist</b><span>Chemistry</span><span>Boston</span><i aria-hidden="true">→</i></a></li>
+    <li><a href="mailto:careers@aperiodic.example?subject=Robotics%20Engineer"><b>Robotics Engineer, Lab Automation</b><span>Robotics</span><span>Boston</span><i aria-hidden="true">→</i></a></li>
+    <li><a href="mailto:careers@aperiodic.example?subject=Platform%20Engineer"><b>Senior Platform Engineer</b><span>Software</span><span>Remote</span><i aria-hidden="true">→</i></a></li>
+    <li><a href="mailto:careers@aperiodic.example?subject=Partnerships"><b>Head of Industrial Partnerships</b><span>Business</span><span>Boston</span><i aria-hidden="true">→</i></a></li>
+  </ul>
+</section>
+
+<section class="join" id="join">
+  <div class="wrap join-in">
+    <h2>Have a material problem?</h2>
+    <p>We take on a small number of industrial partners each quarter. Tell us what you need to exist.</p>
+    <form class="wl" action="mailto:partners@aperiodic.example" method="post" enctype="text/plain">
+      
+      <input id="em" aria-label="Work email" name="email" type="email" required placeholder="you@company.com" autocomplete="email">
+      <button class="btn" type="submit">Request access</button>
+    </form>
+  </div>
+</section>
+</main>
+
+<footer class="foot wrap">
+  <a class="brand" href="#top"><svg viewBox="0 0 32 32" aria-hidden="true"><path d="M16 5l10 18H6z" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linejoin="round"/><circle cx="16" cy="17" r="2.6" fill="var(--cy)"/></svg>Aperiodic</a>
+  <nav aria-label="Footer"><a href="#thesis">Thesis</a><a href="#product">Platform</a><a href="#team">Team</a><a href="#careers">Careers</a><a href="mailto:press@aperiodic.example">Press</a></nav>
+  <p class="mono">© 2026 Aperiodic Inc. · Boston, MA</p>
+</footer>
+<script src="app.js" defer></script>
+</body>
+</html>
